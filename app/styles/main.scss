@@ -1,0 +1,170 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+.heading {
+    height: 50px;
+}
+
+.logo {
+    height: 40px;
+    width: 144px;
+}
+
+.footer {
+    height: 50px;
+}
+
+.icon-style {
+    padding: 10px;
+    display: inline-block;
+}
+
+.info-box {
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 16px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#carousel-example-generic {
+    width: 100%;
+    height: 100%;
+}
+
+#image {
+    height: 100%;
+    width: 250;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 324px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: scroll;
+    background: #D2D2D2;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 324px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 0;
+    overflow: hidden;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #D2D2D2;
+    border-bottom: 4px solid #ddd;
+    border-bottom-color: #0087C8;
+    cursor: default;
+    color: black;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #D2D2D2;
+}
+
+.personal-box,
+.personal-box1 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    margin-top: 16px;
+}
+
+.flag-icon-style,
+.inbox-icon-style {
+    font-size: 24px;
+    padding-top: 22px;
+}
+
+.flag-icon-style {
+    color: orange;
+}
+
+.inbox-icon-style {
+    color: #FFC107;
+}
+
+.title {
+    font-size: 10px;
+    color: #8C8C8C;
+}
+
+.description {
+    font-size: 14px;
+    color: black;
+}
+
+.personal-box1 {
+    border-left: 6px solid #FFC107;
+}
+
+.personal-box {
+    border-left: 6px solid orange;
+}
+
+.nav-tabs > li {
+    padding: 0px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #032E50;
+    color: white;
+    padding-top: 16px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #032E50;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom: 3px solid yellow;
+    color: yellow;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.toggle{
+    margin-top:200px;
+}

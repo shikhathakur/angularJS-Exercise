@@ -1,0 +1,20 @@
+<p>This is the about view.</p>
+Table
+<table class="table table-bordered text-center" >
+    <thead>
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Experience</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="obj in employeeData |orderBy : Name">
+            <th scope="row" ng-bind='obj.Sno'></th>
+            <td ng-bind='obj.Name'></td>
+            <td ng-bind='obj.Designation'></td>
+            <td ng-bind='obj.Experience'></td>
+        </tr>
+    </tbody>
+</table>
